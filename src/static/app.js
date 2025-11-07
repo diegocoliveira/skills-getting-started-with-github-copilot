@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const activity = event.target.dataset.activity;
       const email = event.target.dataset.email;
       
-      if (confirm(`Deseja realmente remover ${email} da atividade ${activity}?`)) {
+      if (confirm(`Are you sure you want to remove ${email} from ${activity}?`)) {
         deleteParticipant(activity, email);
       }
     }
