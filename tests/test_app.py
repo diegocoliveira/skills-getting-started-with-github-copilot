@@ -1,6 +1,5 @@
 """Tests for the main API endpoints"""
 
-from fastapi.testclient import TestClient
 
 
 class TestRootEndpoint:
