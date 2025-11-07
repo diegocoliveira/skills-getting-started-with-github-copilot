@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 </li>
               `).join('')}
             </ul>`
-          : `<p class="no-participants">Nenhum participante inscrito ainda.</p>`;
+          : `<p class="no-participants">No participants signed up yet.</p>`;
 
         activityCard.innerHTML = `
           <h4>${name}</h4>
