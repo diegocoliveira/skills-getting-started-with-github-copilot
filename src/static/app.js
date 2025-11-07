@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const result = await response.json();
 
       if (response.ok) {
-        messageDiv.textContent = result.message || "Participante removido com sucesso!";
+        messageDiv.textContent = result.message || "Participant removed successfully!";
         messageDiv.className = "success";
         // Reload activities to reflect the change
         activitySelect.innerHTML = '<option value="">-- Select an activity --</option>';
