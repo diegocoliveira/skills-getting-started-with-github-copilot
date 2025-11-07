@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
         activitySelect.innerHTML = '<option value="">-- Select an activity --</option>';
         await fetchActivities();
       } else {
-        messageDiv.textContent = result.detail || "Erro ao remover participante";
+        messageDiv.textContent = result.detail || "Error removing participant";
         messageDiv.className = "error";
       }
 
