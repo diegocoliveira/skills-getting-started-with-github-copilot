@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
         messageDiv.classList.add("hidden");
       }, 5000);
     } catch (error) {
-      messageDiv.textContent = "Falha ao remover participante. Tente novamente.";
+      messageDiv.textContent = "Failed to remove participant. Please try again.";
       messageDiv.className = "error";
       messageDiv.classList.remove("hidden");
       console.error("Error removing participant:", error);
